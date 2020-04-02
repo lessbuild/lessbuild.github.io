@@ -100,10 +100,10 @@
                 <div class="mt-3">
                     <div class="flex">
                         <div class="flex-1 leading-snug w-0">
-                            <h4 class="whitespace-no-wrap text-primary font-bold truncate hover:text-primary">
+                            <h4 class="whitespace-no-wrap text-darker font-bold truncate hover:text-primary">
                                 {{ $portfolio['title'] }}
                             </h4>
-                            <p class="text-sm text-secondary">
+                            <p class="text-sm text-dark">
                                 {{ $portfolio['description'] }}
                             </p>
                         </div>
