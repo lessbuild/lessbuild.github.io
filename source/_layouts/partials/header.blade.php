@@ -11,10 +11,10 @@
 			<h2 class="text-2xl mt-2 font-bold mb-2 leading-tight text-darker">
 				{{ $title ?? '' }}
 			</h2>
-			<h3 class="text-sm font-semibold my-6 sm:mb-16 text-light">
+			<h3 class="text-sm font-semibold my-6 sm:mb-12 text-light">
 				{!! $description ?? '' !!}
 			</h3>
-			<div class="flex">
+			<div class="flex mb-6 lg:mb-0">
 				{{ $buttons ?? '' }}
 			</div>
 		</div>

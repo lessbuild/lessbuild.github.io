@@ -18,14 +18,14 @@
 <!-- // Header -->
 
 @section('body')
-	<div class="py-12 px-4 flex">
+	<div class="py-12 px-4 flex flex-col md:flex-row">
 
-		<div class="h-full w-1/5 border bg-white p-4">
+		<div class="h-full w-full md:w-1/5 border bg-white p-4 mb-4 lg:mb-0">
 			<h2 class="font-bold text-darker mb-2">{{ $page->title }}</h2>
 			<p class="text-sm text-dark">{!! $page->getExcerpt(200) !!}</p>
 		</div>
 
-		<div class="w-4/5 px-8">
+		<div class="w-full md:w-4/5 md:px-8">
 			<div class="bg-white border p-4 text-sm text-dark">
 				@yield('content')
 

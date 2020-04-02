@@ -62,7 +62,7 @@
             'description' => 'All of the websites we build look just as beautiful on the mobile as they do the desktop'
         ])
             @slot('icon')
-                <i class="mdi mdi-cellphonep"></i>
+                <i class="mdi mdi-cellphone"></i>
             @endslot
         @endcomponent
         <!-- // Beautiful designs !-->
