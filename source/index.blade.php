@@ -11,12 +11,8 @@
         @slot('buttons')
             <a
                 href="/"
-                class="mr-3 bg-ternary shadow border border-primary text-light font-bold rounded py-4 px-8 uppercase tracking-wider"
+                class="mr-3 bg-primary shadow border border-primary font-bold rounded py-4 px-8 uppercase tracking-wider"
             >Portfolio</a>
-            <a
-                href="/"
-                class="bg-primary shadow border border-primary font-bold rounded py-4 px-8 uppercase tracking-wider"
-            >Contact</a>
         @endslot
     @endcomponent
 @endpush
@@ -25,7 +21,7 @@
 
 @section('body')
     <!-- Features !-->
-    <div class="px-16 my-10 bg-primary flex flex-wrap">
+    <div class="px-16 mb-10 bg-white flex flex-wrap">
 
         <!-- Build with confidence !-->
         @component('_layouts.partials.bullet', [
@@ -62,11 +58,11 @@
 
         <!-- Beautiful designs !-->
         @component('_layouts.partials.bullet', [
-            'title' => 'Beautiful designs',
-            'description' => 'We know customers judge your company on the look of your website, that is why we build beautiful websites'
+            'title' => 'Responsive',
+            'description' => 'All of the websites we build look just as beautiful on the mobile as they do the desktop'
         ])
             @slot('icon')
-                <i class="mdi mdi-find-replace"></i>
+                <i class="mdi mdi-cellphonep"></i>
             @endslot
         @endcomponent
         <!-- // Beautiful designs !-->
@@ -94,13 +90,12 @@
                     <img
                         loading="lazy"
                         src="{{ $portfolio['image'] ?? '' }}"
-                        alt="temp78876"
                         class="w-full h-full object-cover">
                 </div>
                 <div class="mt-3">
                     <div class="flex">
-                        <div class="flex-1 leading-snug w-0">
-                            <h4 class="whitespace-no-wrap text-darker font-bold truncate hover:text-primary">
+                        <div class="m-2 flex-1 leading-snug w-0">
+                            <h4 class="whitespace-no-wrap text-darker font-bold truncate hover:text-dark">
                                 {{ $portfolio['title'] }}
                             </h4>
                             <p class="text-sm text-dark">
@@ -111,14 +106,6 @@
                 </div>
             </a>
             @endforeach
-        </div>
-        <div class="mt-16 text-center">
-            <a
-                title="TailwindCSS component"
-                href="/components"
-                class="button text-white bg-primary">
-                See all components
-            </a>
         </div>
     </div>
 @stop

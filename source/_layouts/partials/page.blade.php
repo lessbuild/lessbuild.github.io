@@ -10,12 +10,8 @@
 		@slot('buttons')
 			<a
 				href="/"
-				class="mr-3 bg-ternary shadow border border-primary text-light font-bold rounded py-4 px-8 uppercase tracking-wider"
+				class="mr-3 bg-primary shadow border border-primary font-bold rounded py-4 px-8 uppercase tracking-wider"
 			>Portfolio</a>
-			<a
-				href="/"
-				class="bg-primary shadow border border-primary font-bold rounded py-4 px-8 uppercase tracking-wider"
-			>Contact</a>
 		@endslot
 	@endcomponent
 @endpush

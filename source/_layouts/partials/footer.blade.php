@@ -42,7 +42,6 @@
 					@foreach([
     					['title' => 'Terms', 'uri' => 'terms'],
     					['title' => 'Privacy', 'uri' => 'privacy'],
-    					['title' => 'Contact', 'uri' => 'contact']
    			 		] as $link)
 						<li class="mt-2">
 							<a
