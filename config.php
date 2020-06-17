@@ -6,7 +6,7 @@ return [
     'baseUrl' => '',
     'production' => false,
     'sitename' => 'LessBuild',
-    'siteDescription' => 'Generate an elegant blog with Jigsaw',
+    'siteDescription' => 'Let Lessbuild create your next greatest idea.',
     'siteAuthor' => 'Author Name',
 
     // collections

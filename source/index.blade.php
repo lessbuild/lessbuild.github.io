@@ -80,19 +80,19 @@
                 Here you can see some of the applications {{ $page->sitename }} has created or helped create
             </h3>
         </div>
-        <div class="flex">
+        <div class="flex flex-col md:flex-row">
             @foreach($portfolios as $portfolio)
             <a
                 href="{{ $portfolio->getUrl() }}"
-                class="w-1/3 rounded overflow-hidden"
+                class="w-full md:w-1/3 rounded overflow-hidden mb-6 md:mb-0 flex flex-col"
             >
-                <div class="h-48 xl:h-64 bg-gray-200 overflow-hidden rounded m-2">
+                <div class="h-48 xl:h-64 bg-gray-200 overflow-hidden rounded m-2 order-2 md:order-1">
                     <img
                         loading="lazy"
                         src="{{ $portfolio['image'] ?? '' }}"
                         class="w-full h-full object-cover">
                 </div>
-                <div class="mt-3">
+                <div class="mt-3 order-1 md:order-2">
                     <div class="flex">
                         <div class="m-2 flex-1 leading-snug w-0">
                             <h4 class="whitespace-no-wrap text-darker font-bold truncate hover:text-dark">
