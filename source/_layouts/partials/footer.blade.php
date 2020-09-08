@@ -69,6 +69,11 @@
 				</div>
 			</div>
 			<!-- // Website !-->
+			<div class="flex w-full mt-6 text-xs items-center justify-center text-gray-500">
+				Lessbuild is a member of the ONLY SORT Group and registered in England (no. 12847598). <br>
+				Registered office ONLY SORT GROUP, SKELMERSDALE, England, UK, WN8 6TJ. <br><br>
+				Copyright &copy; 2020 by LESSBUILD
+			</div>
 		</div>
 	</div>
 </div>
